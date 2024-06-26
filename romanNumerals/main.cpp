@@ -7,10 +7,10 @@ int input(romanNumerals* rNumeral) {
     if (rNumeral == nullptr)
       return -1;
     
-    std::string newValue;
-    std::cout << "Enter a roman numeral: ";
-    std::cin >> newValue;
-    std::cout << std::endl;
+    string newValue;
+    cout << "Enter a roman numeral: ";
+    cin >> newValue;
+    cout << endl;
 
     return rNumeral->romanToNumber(newValue);
 }
