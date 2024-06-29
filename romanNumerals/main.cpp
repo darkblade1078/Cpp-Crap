@@ -15,7 +15,6 @@ int input(romanNumerals* rNumeral) {
     return rNumeral->romanToNumber(newValue);
 }
 
-
 int main() {
     romanNumerals numeral;
     int results = input(&numeral);
